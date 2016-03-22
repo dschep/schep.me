@@ -1,0 +1,12 @@
+<a href="{{ this.url }}" target="_blank">
+    <h2>{{ this.name }}</h2>
+    <img src="{{ this.attachments.images.first()|url}}">
+</a>
+<p>{{ this.description }}</p>
+{% for link, label in [(this.link1, this.link_label1),
+                       (this.link2, this.link_label2),
+                       (this.link3, this.link_label3)] %}
+    <a href="{{ link }}" target="_blank">
+        {{ label }}
+    </a>
+{% endfor %}

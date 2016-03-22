@@ -1,0 +1,15 @@
+description: A command line utility (and to a degree, python library) for sending push(and local) notifications. It also can send a notification when a program finishes.
+---
+link2: https://github.com/dschep/ntfy
+---
+link_label2: View Source
+---
+name: ntfy
+---
+url: http://ntfy.readthedocs.org/
+---
+link1: http://ntfy.readthedocs.org/
+---
+link_label1: View Docs
+---
+order: 1

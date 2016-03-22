@@ -1,0 +1,135 @@
+title: Welcome to schep.me!
+---
+body:
+
+  <div class="container">
+    <div class="hero">
+      <img src="dschep.jpg" class="avatar">
+      <div class="title">
+        <h1>Daniel Schep</h1>
+        <h2>Full-Stack Developer</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="about">
+      <h3>About Me</h3>
+      <p>I am a Full-Stack developer who specializes in Python &amp; Django.
+      Many of my side projects are more JavaScript centric to stay up to date
+      on frontend technologies. I'm a Backend Software Engineer at
+      <a href="http://www.endgame.com/" target="_blank">Endgame</a>.
+      and am based in Washington, DC.  In my free time I'm an avid mountain
+      biker, skier and all around adventurer.</p>
+    </div>
+  </div>
+
+  <div class="well work">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="work#oss">
+            <div  class="os">
+          <img src="opensource.png" alt="Open Source">
+          </div>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="work#endgame">
+            <div  class="endgame">
+          <img src="endgame.png" alt="Endgame">
+          </div>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="work#natgeo">
+            <div  class="ng">
+          <img src="nationalgeographic.png" alt="National Geographic">
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2">
+        <h5 class="resume-section">Work Experience</h5>
+      </div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-sm-3 pull-right">
+            <h5>2015 - present</h5>
+          </div>
+          <div class="col-sm-9">
+            <h4>Software Engineer</h4>
+            <h5>Endgame, Inc.</h5>
+            <p>
+            I serve as a backend engineer, developing Endgame's Cyber
+            Operations Platform. I mostly work on the ETL process and backend
+            of the web-based Sensor Management Platform.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3 pull-right">
+            <h5>2013 - 2015</h5>
+          </div>
+          <div class="col-sm-9">
+            <h4>Senior Technical Consultant</h4>
+            <h5>Celerity IT, LLC</h5>
+            <p>
+            I worked as a Django developer on projects for our clients
+            including National Geographic and SocialCode. I often served as the
+            Celerity Technical Lead on projects I was involved in.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3 pull-right">
+            <h5>2011 - 2013</h5>
+          </div>
+          <div class="col-sm-9">
+            <h4>Computer Scientist</h4>
+            <h5>White Oak Technologies, Inc</h5>
+            <p>
+            I was a full-stack web developer building Novetta's Cyber Analytics
+            platform.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3 pull-right">
+            <h5>2009 - 2011</h5>
+          </div>
+          <div class="col-sm-9">
+            <h4>Engineer</h4>
+            <h5>Savannah River National Laboratory</h5>
+            <p>
+            I worked with scientists an engineers to help them with their
+            software needs. I developed a Python port of a Tcl/Tk interface for
+            emergency weather simulations and a preprocessing toolchain for
+            groundwater simulation tools.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2">
+        <h5 class="resume-section">Education</h5>
+      </div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-sm-3 pull-right">
+            <h5>2005 - 2009</h5>
+          </div>
+          <div class="col-sm-9">
+            <h4>Bachelor of Science, Computer Science (Math minor)</h4>
+            <h5>University of South Carolina</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

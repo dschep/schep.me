@@ -1,0 +1,109 @@
+title: Bechdel Test Pass Rates
+---
+pub_date: 2016-03-21
+---
+author: Daniel Schep
+---
+body:
+
+Made with data from 
+<a href="http://bechdeltest.com/" target="_blank">bechdeltest.com</a>.
+Sources in
+<a href="http://gist.github.com/dschep/5121543" target="_blank">Gist 5121543</a>
+
+The data is very sparse before 1930ish, leading to some 100% pass rates
+
+<div id='bechdel-chart'></div>
+
+<style>#bechdel-chart {
+  overflow-x: auto;
+} #bechdel-chart svg {
+  background: white;
+}
+.chart rect {
+    stroke: white;
+    fill: steelblue;
+}
+.chart text {
+    font: 10px sans-serif;
+}
+</style>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+<script>
+var h = 500 - 40,
+    w = 760 - 40;
+
+var y = d3.scale.linear()
+    .domain([0, 1])
+    .range([0, h-20]);
+ 
+var x = d3.scale.linear()
+    .domain([1900, 2013])
+    .range([0, w]);
+ 
+var chart = d3.select("#bechdel-chart").append("svg")
+    .attr("class", "chart")
+    .attr("height", h + 40)
+    .attr("width", w + 40)
+  .append('g')
+    .attr('transform', 'translate(20, 20)');
+ 
+ 
+chart.selectAll('.tickline')
+    .data(y.ticks(10))
+  .enter().append('line')
+    .attr('class', 'tickline')
+    .attr('x1', 0)
+    .attr('x2', w)
+    .attr('y1', function(d) { return h  - y(d); })
+    .attr('y2', function(d) { return h  - y(d); })
+    .style("stroke-width", 1)
+    .style("stroke", "#ccc");
+ 
+ 
+ 
+chart.selectAll('.percent')
+    .data(y.ticks(10))
+  .enter().append('text')
+    .attr('class', 'percent')
+    .attr('x', 20)
+    .attr('y', function(d) { return h  - y(d); })
+    .text(String);
+ 
+ 
+ 
+d3.json('/blog/bechdel-test-pass-rates/bechdel-passing.json', function(error, data){
+ 
+    chart.selectAll("rect")
+        .data(data)
+      .enter().append("rect")
+          .attr("x", function(d) { return x(d.year); })
+          .attr('y', function(d) { return h - y(d.value); })
+          .attr('height', function(d) { return y(d.value); })
+          .attr("width", '4');
+ 
+    chart.append('line')
+        .attr('x1', 0)
+        .attr('x2', w)
+        .attr('y1', h)
+        .attr('y2', h)
+        .style("stroke-width", 2)
+        .style("stroke", "#000");
+ 
+    chart.selectAll('.rule')
+        .data(x.ticks(10))
+      .enter().append('text')
+        .attr('class', 'rule')
+        .attr('x', x)
+        .attr('y', h)
+        .attr('dy', 20)
+        .attr('text-anchor', 'middle')
+        .text(String)
+ 
+})
+ 
+ 
+</script>
+---
+twitter_handle: schep_

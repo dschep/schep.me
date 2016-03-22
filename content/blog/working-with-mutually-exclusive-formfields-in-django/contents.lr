@@ -1,0 +1,148 @@
+title: Working with Mutually Exclusive Fields in Django Forms
+---
+body:
+
+<style>
+iframe {
+    background: white;
+    border: none;
+    width: 100%;
+}
+</style>
+Republished from the <a href="http://blog.celerity.com/working-mutually-exclusive-fields-django-forms" target="_blank">Celerity blog</a>.
+
+Attention Django developers! When soliciting input from users with an HTML
+form, you want to design forms to be as flexible as possible. That means you
+build in multiple form fields to support multiple input options, even if you
+only want the user to fill in one of them.
+
+Having two or more mutually exclusive fields in a form on a webpage/webapp is a
+pretty frequent scenario developers have to deal with. Unfortunately, Django's
+forms have no builtin support for this. In this blog post, I will cover the two
+simple, but ugly, solutions we Django developers often find ourselves using and
+introduce a library that makes working with such scenarios much simpler.
+
+
+## v1: Helptext & Validation
+
+The most important part of working with mutually exclusive fields is ensuring
+that only one of the fields is filled in. This can be achieved by a simple
+check in the form's `clean` method. The following code snipped demonstrates
+that check.
+
+    def clean(self):
+        cleaned_data = super(TestForm, self).clean()
+     
+        if not (bool(self.cleaned_data['test_field1']) !=
+                bool(self.cleaned_data['test_field2'])):
+            raise forms.ValidationError, 'Fill in only one of the two fields'
+     
+        return cleaned_data
+
+And here it is in action:
+
+<iframe src="http://djmutuallyexclusivefieldsdemo.herokuapp.com/v1" style="height: 170px;"></iframe>
+<br>
+
+## v2: Add Some JavaScript!
+
+As you can see, the main issue with the barebones approach is that the user
+experience is pretty awful and relies on help text to explain the situation to
+the user.
+
+A way to simplify the user experience is to add radio buttons infront of the
+two fields and only allow one field to be enabled at a time. Here is a simple
+implementation of that using jQuery.
+
+    $(document).ready(function() {
+        $('#id_test_field1,#id_test_field2').each(function(i, e) {
+            $('<input name="test_field" type="radio" value="'+i+'">')
+                .insertBefore(e)
+                .click(function() {
+                    $('#id_test_field1,#id_test_field2').attr('disabled', 'disabled');
+                    $(e).removeAttr('disabled');
+                })
+                .next('#id_test_field1').prev().click();
+        });
+    });
+
+And here it is in action:
+
+<iframe src="http://djmutuallyexclusivefieldsdemo.herokuapp.com/v2" style="height: 150px;"></iframe>
+<br>
+
+## v3: django-xor-formfields
+
+The third approach involved developing a custom field & widget that renders as
+two widgets in the DOM and has the requisite JavaScript to manage the disabling
+of unused fields.
+
+The library I developed is available on
+<a href="https://github.com/dschep/django-xor-formfields"
+   target="_blank">Github</a> and <a target="_blank"
+   href="https://pypi.python.org/pypi/django-xor-formfields">PyPI</a>.
+
+It consists of two main parts, the `MutuallyExclusiveRadioWidget` and the
+`MutuallyExclusiveValueField`.
+
+The `MutuallyExclusiveRadioWidget` accepts
+a list of django widgets and renders them with a radio button in front of each
+widget. The widgets are all rendered with the same `name` parameter in the DOM
+because since all but one of them is disabled by the JavaScript, only one value
+gets POSTed to the server.
+
+The `MutuallyExclusiveValueField` must be passed an iterable of fields and a
+`MutuallyExclusiveRadioWidget` built with the respective widgets for those
+fields. The field validates that only one of the subfields is populated and
+that is the value of the field.
+
+An example of using this field/widget combo looks like this:
+
+    test_field = MutuallyExclusiveValueField(
+            fields=(forms.IntegerField(), forms.IntegerField()),
+            widget=MutuallyExclusiveRadioWidget(widgets=(
+                forms.Select(choices=[(1,1), (2,2), (3,3)]),
+                forms.TextInput(),
+            )))
+
+And here it is in action:
+
+<iframe src="http://djmutuallyexclusivefieldsdemo.herokuapp.com/v3" style="height: 120px;"></iframe>
+<br>
+
+## Bonus! Files & URL Normalizaion
+
+The main usecase that prompted developing the django-xor-formfields package was
+to allow users to upload files by either submitting an URL or a file. So I
+created the `FileOrURLField`. It is a subclass of `MutuallyExclusiveValueField`
+and automatically uses `FileOrURLWidget`, a subclass of
+`MutuallyExclusiveRadioWidget`.
+
+It supports 3 forms of normalization through the `to` kwarg:
+ * `None` (passthrough)
+ * `'url'`
+ * `'file'`
+ 
+The later two options allow the code using your form to be completely unaware
+of how the user submitted their file or URL. If 'url' is specified and the user
+uploads a file, the field with download the file and store it as media and
+return the URL for that file. If 'file' is specified and the user submits an
+URL, the field will download that file into an `InMemoryUploadedFile`.An
+example of using this field which normalized to files is:
+
+And here it is in action:
+
+<iframe src="http://djmutuallyexclusivefieldsdemo.herokuapp.com/v4" style="height: 300px" ></iframe>
+<br>
+
+## Notes
+
+The code for the demos is available on
+<a href="https://github.com/dschep/django_mutuallyexclusive_formfields_blogpost"
+   target="_blank">Github</a>.
+---
+author: Daniel Schep
+---
+pub_date: 2014-10-08
+---
+twitter_handle: schep_

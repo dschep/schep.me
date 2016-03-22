@@ -1,0 +1,11 @@
+name: FieldScope
+---
+description: I implemented the [FieldScope Project Builder](http://fieldscope.org/projectbuilder) (currently in private beta) to allow non-technical users to create new citizen sience projects on the FieldScope platform.
+---
+link1: http://education.nationalgeographic.org/programs/fieldscope/
+---
+link_label1: View Project
+---
+order: 3
+---
+url: http://education.nationalgeographic.org/programs/fieldscope/

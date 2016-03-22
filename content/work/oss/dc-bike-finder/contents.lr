@@ -1,0 +1,19 @@
+name: DC Bike Finder
+---
+description: A Firefox OS app for finding Capital Bikeshare stations.
+---
+link1: https://marketplace.firefox.com/app/dc-bike-finder/
+---
+link2: http://dc-bike-finder.schep.me/
+---
+link3: https://github.com/dschep/dc-bike-finder
+---
+link_label1: Install on Firefox Marketplace
+---
+link_label2: Try Now
+---
+link_label3: View Source
+---
+url: http://dc-bike-finder.schep.me/
+---
+order: 2

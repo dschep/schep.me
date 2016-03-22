@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block title %}Work{% endblock %}
+{% block body %}
+  {% for this in this.children %}
+    {% include 'work-category.html' %}
+  {% endfor %}
+{% endblock %}

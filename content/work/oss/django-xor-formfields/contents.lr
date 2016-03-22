@@ -1,0 +1,11 @@
+name: django-xor-formfields
+---
+description: A library for working with mutually exclusive form fields in Django. Read more about it in [this blog post](/blog/working-with-mutually-exclusive-formfields-in-django/).
+---
+link1: https://github.com/dschep/django-xor-formfields
+---
+link_label1: View Source
+---
+order: 5
+---
+url: https://github.com/dschep/django-xor-formfields

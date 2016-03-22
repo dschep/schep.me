@@ -1,0 +1,13 @@
+name: Ansible postgresql_ext module
+---
+description: A module for [Ansible](http://docs.ansible.com/ansible/index.html) to add or remove PostgreSQL extensions from a database.
+---
+link1: http://docs.ansible.com/ansible/postgresql_ext_module.html
+---
+link2: https://github.com/ansible/ansible-modules-extras/blob/devel/database/postgresql/postgresql_ext.py
+---
+link_label1: View Docs
+---
+link_label2: View Source
+---
+order: 4
