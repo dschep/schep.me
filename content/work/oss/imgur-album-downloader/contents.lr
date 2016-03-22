@@ -2,7 +2,7 @@ name: Imgur Album Downloader
 ---
 description: A little client side utility to download whole or partial imgur albums.
 ---
-link1: http://schep.me/imgur-album-downloader/
+link1: http://dschep.github.io/imgur-album-downloader/
 ---
 link2: http://schep.me/imgur-album-downloader/
 ---
@@ -12,4 +12,4 @@ link_label2: View Source
 ---
 order: 7
 ---
-url: http://schep.me/imgur-album-downloader/
+url: http://dschep.github.io/imgur-album-downloader/

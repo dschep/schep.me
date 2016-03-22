@@ -2,7 +2,7 @@ name: GistMarklets
 ---
 description: A tool for installing javascript bookmarklets stored as gists.
 ---
-link1: http://schep.me/GistMarklets/
+link1: http://dschep.github.io/GistMarklets/
 ---
 link2: https://github.com/dschep/GistMarklets
 ---
@@ -12,4 +12,4 @@ link_label2: View Source
 ---
 order: 6
 ---
-url: http://schep.me/GistMarklets/
+url: http://dschep.github.io/GistMarklets/

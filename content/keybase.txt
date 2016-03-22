@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/dschep
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://schep.me
+  * I am dschep (https://keybase.io/dschep) on keybase.
+  * I have a public key with fingerprint 583B 5A11 0703 B4F5 C5F8  A28D 1D09 8FA6 AE40 D301
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.8.8"
+        },
+        "key": {
+            "fingerprint": "583b5a110703b4f5c5f8a28d1d098fa6ae40d301",
+            "host": "keybase.io",
+            "key_id": "1d098fa6ae40d301",
+            "uid": "058fee031ec527c0f1cf04f689901800",
+            "username": "dschep"
+        },
+        "service": {
+            "hostname": "schep.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1436296114,
+    "expire_in": 157680000,
+    "prev": "7787de0daa72898dc7f6b8b4a11c77339b18c2fefe236e7c9b68fd3b57d9e9e7",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGbwMvMwMQoy9m/bJ3DZUbG0we1kxhC5yhvqlZKyk+pVLKqVkrOyUzNKwGx8hJz
+U5WslLJTK5MSi1P1MvMV8vJTUvWyihWganSUylKLijPz84CqDPQs9CyUanVAykGa
+0zLz0lOLCooyQWYpmVoYJ5kmGhoamBsYJ5mkmSabplkkGlmkGKYYWFqkJZolppoY
+pBgbGAKNzMgvLkGxVQlsZnxmClAUi/pSsISBqUVaaqqBsWFqsqmRebJBmmFymoFJ
+mpmFpaWBoYWBAUhhcWoR1EspxckZqQUg1wLFyjKTU0EuBlkMlQdL6wGZOkoFRfkl
++cn5OUDRjJKSAiuQppLKApCq8tSkeKj++KTMvBSgj5GDxBCoMrkkE2SgoYmxmZGl
+maGhiY5SakVBZlFqfCZIham5GdBtBgYga1LLgEaam1uYp6QapCQmmhtZWFqkJJun
+mSVZJJkAgy7Z3NzY2DLJ0CLZKC01LdXI2CzVPNkyycwiLQUYtuYplqmWqeZKIB8V
+5uUrWQFtKklMB/klMz0vsaS0KFWptpNJhoWBkYmBjZUJFOcMXJwCsJTgrC3AMHvf
+ofqFr1WYDgVOS3K83MzYZHWJ0evjzKdGwRtsZ5kKfC1zcQxnrn0nyCqhLlW8/+Yf
+MwOd5C0iN7L+NcVx7OTP8lk4Y1H95xecolPsqt9v2JOZcpFP9Ez2E7/TCXec0tVS
+4hbEtZ2WSD2l9YX94a2ko0fSOHcUnY3cLr5gy9kvq/zqE97NOfso8Vr36ZVWToee
+MYfd2Wud4HePcZ3uw+lH5pnOOO4rU6ZbfmWWu/imbU/fPVtlfS+YR8RKanFOmGvU
+7+ssFovOS/1kTV30OetvruSfrpmpew7NcP6x75xaLn8gG9M7v8i2m54yXFs/Xd3A
+YXlCf8GFM5sWrGbIe2yrkBK98iunt+hp15bICOY5CdUi/PesWCt3qijIMbQemnPU
++dp1Jvc0LekM7uCzKixikh3CoWzT5VgS5l0WOh3213oL/5VjsZYr9lVWRbNM4zwt
+92pvibRUA6f4ubSZ96s+L2Eu/O1+r3GVb5Tu7WXrn4eLnr52ce+FulPmCS0RNy9a
+Vjc637NynNn422DHl10HZDfdO75m30l9+T2ddpkTw5Luroq5r+Ybta3lvVei9PUC
+TeszK0oX7hYN7d4X5rv1ZQ9HyjZrz3sy7Iufq0rFnl5oN+kl15x7s1a/LLIu7Cvw
+qGUz3Ntmc+faZxbhjnaLq74JZ84/CQhQPHe8zk/k/8ItO2rrTn+cr579I8VbaWPQ
+ttWS/OLCO5fxAAA=
+=WKqJ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dschep
+
+==================================================================
