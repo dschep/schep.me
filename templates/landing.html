@@ -1,5 +1,31 @@
 {% extends "layout.html" %}
-{% block title %}{{ this.title }}{% endblock %}
+{% block title %}Daniel Schep{% endblock %}
 {% block content_wrapper %}
-  {{ this.body }}
+<link href="/static/home.css" rel="stylesheet">
+<div class="container">
+    <div class="hero">
+        <img src="dschep.jpg" class="avatar">
+        <div class="title">
+            <h1>Daniel Schep</h1>
+            <h2>{{ this.title }}</h2>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="about">
+        <h3>About Me</h3>
+        {{ this.about }}
+    </div>
+</div>
+
+<div class="well work">
+    <div class="container">
+      {{ this.icons }}
+    </div>
+</div>
+
+<div class="container">
+  {{ this.resume }}
+</div>
 {% endblock %}
