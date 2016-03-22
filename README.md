@@ -5,3 +5,5 @@ Here's a quickstart:
 pip install Lektor
 lektor server
 ```
+
+Automatically deployed on push to github (via travis ci)
