@@ -1,2 +1,8 @@
 [project]
 name = schep.me
+
+[servers.ghpages]
+name = schep.me
+enabled = yes
+default = yes
+target = ghpages://dschep/dschep.github.io?cname=schep.me
