@@ -1,28 +1,111 @@
-<!doctype html>
-<meta charset="utf-8">
-<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
-<title>{% block title %}Welcome{% endblock %} — schep.me</title>
-<body>
-  <header>
-    <h1>schep.me</h1>
-    <nav>
-      <ul class="nav navbar-nav">
-        <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Home</a></li>
-        {% for href, title in [
-          ['/work', 'Work'],
-          ['/blog', 'Blog'],
-        ] %}
-          <li{% if this.is_child_of(href) %} class="active"{% endif
-            %}><a href="{{ href|url }}">{{ title }}</a></li>
-        {% endfor %}
-      </ul>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %}{{ this.title }}{{ ' | ' if this.title }}{{ this.author }}{% endblock %}</title>
+    <meta name="description" content="{{ this.description }}">
+    <meta name="author" content="{{ this.author }}">
+
+    <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+    <meta name="viewport" content="{{ this.viewport }}">
+
+    {% block css %}
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/superhero/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="{{ '/static/site.css'|url }}">
+    {% endblock css %}
+
+    {% block headjs %}
+    {% endblock headjs %}
+    {% block endhead %}{% endblock endhead %}
+
+
+
+
+  </head>
+
+  <body>
+
+    {% block nav %}
+    <nav class="navbar navbar-top navbar-inverse" role="navigation">
+    <nav role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/">Daniel Schep</a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse navbar-right">
+          <ul class="nav navbar-nav">
+            {% for href, title in [
+              ['/', 'Home'], ['/work', 'Work'], ['/blog', 'Blog']
+            ] %}
+              <li class="">
+                  <a href="{{ href }}">{{ title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </nav>
-  </header>
-  <div class="page">
-    {% block body %}{% endblock %}
-  </div>
-  <footer>
-    &copy; Copyright 2016 by Daniel Schep.
-  </footer>
-</body>
+    </nav>
+    {% endblock %}
+
+    {% block content_wrapper %}
+    <div class="container">
+    {% block body %}
+    {% endblock body %}
+    </div>
+    {% endblock content_wrapper %}
+
+    <div class="footer">
+      <div class="container">
+        <p class="pull-left ">
+          <i class="fa fa-copyright"></i> {{ this.author }}
+        </p>
+        <ul class="pull-right">
+          <li><a href="mailto:dschep@gmail.com">
+            <i class="fa fa-envelope"></i><span class="network-label"> dschep@gmail.com</span>
+          </a></li>
+          <li><a href="https://github.com/dschep" target="_blank">
+            <i class="fa fa-github"></i><span class="network-label"> dschep</span>
+          </a></li>
+          <li><a href="https://keybase.io/dschep" target="_blank">
+            <i class="fa fa-key"></i><span class="network-label"> dschep</span>
+          </a></li>
+          <li><a href="https://twitter.com/schep_" target="_blank">
+            <i class="fa fa-twitter"></i><span class="network-label"> schep_</span>
+          </a></li>
+          <li><a href="https://www.linkedin.com/profile/view?id=250838080" target="_blank">
+            <i class="fa fa-linkedin"></i><span class="network-label"> Daniel Schep</span>
+          </a></li>
+        </ul>
+      </div>
+    </div>
+
+
+    {% block js %}
+      {% block jquery %}
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      {% endblock jquery %}
+      <script src="https://cdn.jsdelivr.net/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+      {% block scripts %}
+      {% endblock scripts %}
+    {% endblock js %}
+  </body>
+</html>
+

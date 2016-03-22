@@ -1,12 +1,18 @@
-<a href="{{ this.url }}" target="_blank">
-    <h2>{{ this.name }}</h2>
-    <img src="{{ this.attachments.images.first()|url}}">
-</a>
-<p>{{ this.description }}</p>
-{% for link, label in [(this.link1, this.link_label1),
-                       (this.link2, this.link_label2),
-                       (this.link3, this.link_label3)] %}
-    <a href="{{ link }}" target="_blank">
-        {{ label }}
-    </a>
-{% endfor %}
+<div class="row portfolio-entry">
+    <div class="col-md-7">
+        <a href="{{ this.url }}" target="_blank">
+            <img class="img-responsive" src="{{ this.attachments.images.first()|url }}" alt="{{ this.name }}">
+        </a>
+        </div>
+    <div class="col-md-5">
+        <h3>{{ this.name }}</h3>
+        <p>{{ this.description }}</p>
+        {% for link, label in [(this.link1, this.link_label1),
+                               (this.link2, this.link_label2),
+                               (this.link3, this.link_label3)] %}
+            {% if link %}
+            <div><a target="_blank" class="portfolio-link btn btn-{%if loop.index==1%}primary{%else%}default{%endif%}" href="{{ link }}">{{ label }} <span class="glyphicon glyphicon-chevron-right"></span></a></div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
