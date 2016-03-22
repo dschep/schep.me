@@ -5,4 +5,4 @@ name = schep.me
 name = schep.me
 enabled = yes
 default = yes
-target = ghpages://dschep/schep.me?cname=schep.me
+target = ghpages+https://dschep/schep.me?cname=schep.me
