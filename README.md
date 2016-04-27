@@ -6,4 +6,4 @@ pip install Lektor
 lektor server
 ```
 
-Automatically deployed on push to github (via TravisCI)
+Automatically deployed to gitlab pages on push.
