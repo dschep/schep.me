@@ -76,16 +76,16 @@
   background: #485563;
 }
 
-.work div.ng {
-  background-image: url('/nationalgeographic-muted.png');
+.work div.wapo {
+  background-image: url('/wapo-muted.png');
   background-size: 100%;
 }
 .work div.os {
   background-image: url('/opensource-muted.png');
   background-size: 100%;
 }
-.work div.endgame {
-  background-image: url('/endgame-muted.png');
+.work div.threde {
+  background-image: url('/threde-muted.png');
   background-size: 100%;
 }
 .work img {

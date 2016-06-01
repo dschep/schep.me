@@ -2,7 +2,7 @@ _model: landing
 ---
 title: Full-Stack Developer
 ---
-about: I am a Full-Stack developer who specializes in Python & Django. Many of my side projects are more JavaScript centric to stay up to date on frontend technologies. I'm a Backend Software Engineer at <a href="http://www.endgame.com/" target="_blank">Endgame</a> and am based in Washington, DC.  In my free time I'm an avid mountain biker, skier and all around adventurer.
+about: I am a Full-Stack developer who specializes in Python & Django. Many of my side projects are more JavaScript centric to stay up to date on frontend technologies. I'm a co-founder and the CTO of <a href="http://www.threde.com/" target="_blank">Threde</a>, a small Washington, DC based consultancy.
 ---
 icons:
 
@@ -15,16 +15,16 @@ icons:
         </a>
     </div>
     <div class="col-sm-4">
-        <a href="work#endgame">
-            <div  class="endgame">
-                <img src="/endgame.png" alt="Endgame">
+        <a href="http://threde.com">
+            <div  class="threde">
+                <img src="/threde.png" alt="Threde">
             </div>
         </a>
     </div>
     <div class="col-sm-4">
-        <a href="work#natgeo">
-            <div  class="ng">
-                <img src="/nationalgeographic.png" alt="National Geographic">
+        <a href="work#wapo">
+            <div  class="wapo">
+                <img src="/wapo.png" alt="Washington Post">
             </div>
         </a>
     </div>
