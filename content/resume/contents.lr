@@ -70,24 +70,24 @@ Duties include:
 ### USC Department of Mathematics - Research Assistant
 Spring 2009  
 Duties include:
- * Developing 3-D Biofilm Simulation Code using MUDPACK
+ * Developing 3-D Biofilm Simulation Code using [MUDPACK](https://www2.cisl.ucar.edu/resources/legacy/mudpack)
  * Parallelizing 3-D Biofilm Simulation Code
 
 ### USC Department of Mathematics - Computer Assistant
 2005 - 2009  
 Duties include:
- * Windows, GNU/Linux, Solaris 8 and Mac OS workstation troubleshooting and
+ * Windows, GNU/Linux, Solaris 8, and Mac OS workstation troubleshooting and
 maintenance
  * GNU/Linux server maintenance and administration
  * Perl and Shell Scripting
  * Systems imaging
  * Help desk duties
 
-### Open Source Projects
- * [ntfy](http://ntfy.readthedocs.io/)
- * the ansible [postgresql_ext module](http://docs.ansible.com/ansible/postgresql_ext_module.html)
- * [DC Bike Finder](http://dc-bike-finder.schep.me/)
- * [django-xor-formfields](https://github.com/dschep/django-xor-formfields)
- * Improved VisIt's PFloTran reader.
- * Imporoved the SC scraper in Sunlight Labs' Open State Project
+## Open Source Projects
+ * [ntfy](http://ntfy.readthedocs.io/), a utilitly for bringing notifications, both desktop & cloud, to the terminal
+ * The Ansible [postgresql_ext module](http://docs.ansible.com/ansible/postgresql_ext_module.html)
+ * [DC Bike Finder](http://dc-bike-finder.schep.me/), a Capital Bikeshare web & FirefoxOS app
+ * [django-xor-formfields](https://github.com/dschep/django-xor-formfields), a library for working with mutually exclusive form fields in Django
+ * Improved [VisIt](https://wci.llnl.gov/simulation/computer-codes/visit/)'s [PFLOTRAN](http://www.pflotran.org/) reader
+ * Improved the South Carolina scraper in Sunlight Labs' [Open State Project](http://openstates.org/)
  * More on https://github.com/dschep
