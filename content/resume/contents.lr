@@ -39,6 +39,7 @@ technical consultants with our clients.
 2015 - 2016  
 I serve as a Backend Engineer, working mostly with Python on Endgame's
 Cyber-Operations Platform.
+
  * Adapted a several existing codebases(Django and Tornado) to meet Endgame's
    deadlines for an Air Force Hunt exercise
  * Created a set of easy to work with & debug micro-services to replace a very
@@ -53,6 +54,7 @@ Cyber-Operations Platform.
 ### Celerity IT, LLC - Senior Technical Consultant
 2013 - 2105  
 Consulted as a Full-Stack developer working mostly with Django on the following projects:
+
  * Great Nature Project (National Geographic)
  * NatGeo Education (National Geographic)
  * Map Maker Interactive (National Geographic)
@@ -63,6 +65,7 @@ Consulted as a Full-Stack developer working mostly with Django on the following 
 ### Novetta Solutions - Computer Scientist
 2011 - 2013  
 Duties included:
+
  * Developing Frontend and Django Backend for Cyber-Analytics tool
  * Building releases for installation on production systems
  * Providing Developer support to System Administrators
@@ -70,6 +73,7 @@ Duties included:
 ### Savannah River National Laboratory - Associate Engineer
 2009 - 2011  
 Duties include:
+
  * Developing Visualization tools for [ASCEM](http://esd1.lbl.gov/research/projects/ascem/)
  * Rewriting Atmospheric Modeling frontends in Python
  * Developing pre/post-processing system for ground water modeling tools
@@ -80,12 +84,14 @@ Duties include:
 ### USC Department of Mathematics - Research Assistant
 Spring 2009  
 Duties include:
+
  * Developing 3-D Biofilm Simulation Code using [MUDPACK](https://www2.cisl.ucar.edu/resources/legacy/mudpack)
  * Parallelizing 3-D Biofilm Simulation Code
 
 ### USC Department of Mathematics - Computer Assistant
 2005 - 2009  
 Duties include:
+
  * Windows, GNU/Linux, Solaris 8, and Mac OS workstation troubleshooting and
 maintenance
  * GNU/Linux server maintenance and administration
