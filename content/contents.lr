@@ -15,16 +15,16 @@ icons:
         </a>
     </div>
     <div class="col-sm-4">
-        <a href="http://threde.com">
-            <div  class="threde">
-                <img src="/threde.png" alt="Threde">
+        <a href="work#ui">
+            <div  class="unitedincome">
+                <img src="/unitedincome.png" alt="United Income">
             </div>
         </a>
     </div>
     <div class="col-sm-4">
-        <a href="work#wapo">
-            <div  class="wapo">
-                <img src="/wapo.png" alt="Washington Post">
+        <a href="http://threde.com">
+            <div  class="threde">
+                <img src="/threde.png" alt="Threde">
             </div>
         </a>
     </div>
@@ -36,7 +36,15 @@ resume:
 	<div class="col-sm-2">
 		<h5 class="resume-section">Work Experience</h5>
 	</div>
-	<div class="col-sm-10">
+	<div class="col-sm-10"><div class="row">
+			<div class="col-sm-3 pull-right">
+				<h5>2016 - present</h5>
+			</div>
+			<div class="col-sm-9">
+				<h4>Senior Software Engineer</h4>
+				<h5>United Income</h5>
+			</div>
+		</div>
 		<div class="row">
 			<div class="col-sm-3 pull-right">
 				<h5>2016 - present</h5>
@@ -45,7 +53,7 @@ resume:
 				<h4>Co-Owner</h4>
 				<h5>Threde LLC.</h5>
 				<p>
-				I am Threde's CTO and serve as a consultant for the Washington Post. 
+				I am Threde's CTO.
 				</p>
 			</div>
 		</div>
