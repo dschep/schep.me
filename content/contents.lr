@@ -15,14 +15,14 @@ icons:
         </a>
     </div>
     <div class="col-sm-4">
-        <a href="work#ui">
+        <a href="http://unitedincome.com" target="_blank">
             <div  class="unitedincome">
                 <img src="/unitedincome.png" alt="United Income">
             </div>
         </a>
     </div>
     <div class="col-sm-4">
-        <a href="http://threde.com">
+        <a href="http://threde.com" target="_blank">
             <div  class="threde">
                 <img src="/threde.png" alt="Threde">
             </div>
