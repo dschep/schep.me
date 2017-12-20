@@ -9,3 +9,5 @@ link_label1: View Project
 order: 3
 ---
 url: http://education.nationalgeographic.org/programs/fieldscope/
+---
+_hidden: yes

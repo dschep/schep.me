@@ -9,3 +9,5 @@ link_label1: View Project
 order: 2
 ---
 url: http://natgeoed.org/
+---
+_hidden: yes
