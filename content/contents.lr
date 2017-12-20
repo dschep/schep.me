@@ -2,13 +2,13 @@ _model: landing
 ---
 title: Full-Stack Developer
 ---
-about: I am a Full-Stack developer who specializes in Python & Django. Many of my side projects are more JavaScript centric to stay up to date on frontend technologies. I'm a co-founder and the CTO of <a href="http://www.threde.com/" target="_blank">Threde</a>, a small Washington, DC based consultancy.
+about: I am a Full-Stack developer who specializes in Python, JavaScript and Serverless architectures. I am helping change retirement at <a href="https://unitedincome.com/" target="_blank">United Income</a>. I'm also a co-founder and the CTO of <a href="http://www.threde.com/" target="_blank">Threde</a>, a small consultancy.
 ---
 icons:
 
 <div class="row">
     <div class="col-sm-4">
-        <a href="work#oss">
+        <a href="https://github.com/dschep" target="_blank">
             <div  class="os">
                 <img src="/opensource.png" alt="Open Source">
             </div>
