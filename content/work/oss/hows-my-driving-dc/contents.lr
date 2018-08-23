@@ -1,0 +1,15 @@
+name: How's My Driving DC
+---
+description: A twitter bot to lookup parking & traffic infractions in DC
+---
+link1: https://twitter.com/howsmydrivingdc
+---
+link_label1: View Twitter Profile
+---
+link_label2: View Source
+---
+order: 5
+---
+url: https://twitter.com/howsmydrivingdc
+---
+link2: https://github.com/dschep/hows-my-driving-dc

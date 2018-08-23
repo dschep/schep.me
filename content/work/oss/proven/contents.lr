@@ -1,6 +1,6 @@
 name: Proven
 ---
-description: Proven is a [Keybase](https://keybase.io) based alternative to [Twitter's verified program](https://twitter.com/verified). It is a browser extension that automatically adds badges to users' names on Twitter if they have proven that profile using Keybase.
+description: Proven is an alternative to [Twitter's verified program](https://twitter.com/verified) powered by [Keybase](https://keybase.io). It is a browser extension that automatically adds badges to users' names on Twitter if they have proven that profile using Keybase.
 ---
 link1: https://github.com/dschep/proven
 ---

@@ -9,3 +9,5 @@ link_label1: View Source
 order: 10
 ---
 url: https://github.com/dschep/helper
+---
+_hidden: yes
