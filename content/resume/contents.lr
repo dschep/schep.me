@@ -10,31 +10,36 @@ dschep@gmail.com
 (803) 727 - 9909
 
 ## Summary of skills
-* Expert Python developer, using many frameworks HTTP including Django,
-Tornado, Flask, and aiohttp.
-* Proficient in relational and non-relational Databases, JavaScript(including
-  ES6), HTML5, CSS3, and Bash
+* Expert Python  & Javascript developer, using Serverless & AWS.
+* Experienced with many HTTP frameworks including Django, Tornado, Flask, and aiohttp.
+* Proficient in relational and non-relational Databases, HTML5, CSS3, and Bash
 * Working knowledge of C, C++, Fortran, Java, and Perl
 * Expert user of Linux, Windows, and Mac OS with Ops/Sysadmin experience on
 Linux
 
 ## Education
 University of South Carolina - Bachelor of Science  
-2005 - 2009  
-Major: Computer Science  
-Minor: Mathematics  
+2005 - 2009 | Major: Computer Science | Minor: Mathematics
 
 ## Work Experience
+
+### United Income, Inc. - Senior Software Engineer
+2016 - present  
+I am on of United Income's first engineers and help build and bring our product to market.
+
+ * Built backend HTTP APIs using Node.js and Serverless Framework on AWS Lambda.
+ * Implemented frontend features using React & Redux.
+ * Designed and built a trading engine in Python & Serverless to compute trades needed to rebalance
+   a user's portfolio and execute it in the market.
+ * Created and Maintain the
+   [serverless-python-requirements plugin](https://github.com/unitedincome/serverless-python-requirements)
+
 ### Washington Post - Consultant
 2016
+
 I served as part of Threde's team at the Washington Post, and implemented a
 feature on a short-term contract for their
 [Arc Publishing Suite](http://www.arcpublishing.com/).
-
-### Threde LLC - Co-owner
-2016 - present  
-I am one of Threde's cofounders and serve as our CTO and am serve as one of our
-technical consultants with our clients.
 
 ### Endgame, Inc. - Software Engineer
 2015 - 2016  
@@ -60,8 +65,7 @@ Consulted as a Full-Stack developer working mostly with Django on the following 
  * NatGeo Education (National Geographic)
  * Map Maker Interactive (National Geographic)
  * FieldScope Project Builder (National Geographic)
- * AdVisor 1 support (SocialCode)
- * AdVisor 2 development (SocialCode)
+ * AdVisor 1 & 2 support & deveopment (SocialCode)
 
 ### Novetta Solutions - Computer Scientist
 2011 - 2013  
@@ -78,9 +82,8 @@ Duties include:
  * Developing Visualization tools for [ASCEM](http://esd1.lbl.gov/research/projects/ascem/)
  * Rewriting Atmospheric Modeling frontends in Python
  * Developing pre/post-processing system for ground water modeling tools
- * Developing instrumentation software for digital gamma finder
  * Building and configure scientific and engineering applications for
- * deployment on HPC systems
+   deployment on HPC systems
 
 ### USC Department of Mathematics - Research Assistant
 Spring 2009  
@@ -89,22 +92,4 @@ Duties include:
  * Developing 3-D Biofilm Simulation Code using [MUDPACK](https://www2.cisl.ucar.edu/resources/legacy/mudpack)
  * Parallelizing 3-D Biofilm Simulation Code
 
-### USC Department of Mathematics - Computer Assistant
-2005 - 2009  
-Duties include:
-
- * Windows, GNU/Linux, Solaris 8, and Mac OS workstation troubleshooting and
-maintenance
- * GNU/Linux server maintenance and administration
- * Perl and Shell Scripting
- * Systems imaging
- * Help desk duties
-
-## Open Source Projects
- * [ntfy](http://ntfy.readthedocs.io/), a utilitly for bringing notifications, both desktop & cloud, to the terminal
- * The Ansible [postgresql_ext module](http://docs.ansible.com/ansible/postgresql_ext_module.html)
- * [DC Bike Finder](http://dc-bike-finder.schep.me/), a Capital Bikeshare web & FirefoxOS app
- * [django-xor-formfields](https://github.com/dschep/django-xor-formfields), a library for working with mutually exclusive form fields in Django
- * Improved [VisIt](https://wci.llnl.gov/simulation/computer-codes/visit/)'s [PFLOTRAN](http://www.pflotran.org/) reader
- * Improved the South Carolina scraper in Sunlight Labs' [Open State Project](http://openstates.org/)
- * More on https://github.com/dschep
+### Open Source Projects at [Github](https://github.com/dschep)
