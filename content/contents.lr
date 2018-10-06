@@ -2,7 +2,7 @@ _model: landing
 ---
 title: Full-Stack Developer
 ---
-about: I am a Full-Stack developer who specializes in Python, JavaScript and Serverless architectures. I am helping change retirement at <a href="https://unitedincome.com/" target="_blank">United Income</a>. I'm also a co-founder and the CTO of <a href="http://www.threde.com/" target="_blank">Threde</a>, a small consultancy.
+about: I am a Full-Stack developer who specializes in Python, JavaScript and Serverless architectures. I am helping change retirement at <a href="https://unitedincome.com/" target="_blank">United Income</a>. In my free time I bike and code up bike related projects.
 ---
 icons:
 
@@ -22,9 +22,9 @@ icons:
         </a>
     </div>
     <div class="col-sm-4">
-        <a href="http://threde.com" target="_blank">
-            <div  class="threde">
-                <img src="/threde.png" alt="Threde">
+        <a href="http://trailsta.sh" target="_blank">
+            <div  class="trailstash">
+                <img src="/trailstash.png" alt="Trailstash">
             </div>
         </a>
     </div>
@@ -43,8 +43,10 @@ resume:
 			<div class="col-sm-9">
 				<h4>Senior Software Engineer</h4>
 				<h5>United Income</h5>
+                                <p>I built the trading engine and user faceing application that power United Income's robo-advisor product.</p>
 			</div>
 		</div>
+<!--
 		<div class="row">
 			<div class="col-sm-3 pull-right">
 				<h5>2016 - present</h5>
@@ -57,6 +59,7 @@ resume:
 				</p>
 			</div>
 		</div>
+-->
 		<div class="row">
 			<div class="col-sm-3 pull-right">
 				<h5>2015 - 2016</h5>

@@ -9,6 +9,7 @@
   }
 }
 
+/*
 @media (min-width: 768px) {
   body {
       background-image: url('/landing-bg.jpg');
@@ -25,6 +26,7 @@
     background-size: 1000px;
   }
 }
+*/
 
 .navbar-brand {
   display: none;
@@ -84,8 +86,8 @@
   background-image: url('/opensource-muted.png');
   background-size: 100%;
 }
-.work div.threde {
-  background-image: url('/threde-muted.png');
+.work div.trailstash {
+  background-image: url('/trailstash-muted.png');
   background-size: 100%;
 }
 .work img {
@@ -103,4 +105,22 @@
 
 .resume-section {
   font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  #mountains {
+    height: 537px;
+  }
+}
+@media (max-width: 767px) {
+  #mountains {
+    height: 355px;
+  }
+}
+#mountains {
+  z-index: -10000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }

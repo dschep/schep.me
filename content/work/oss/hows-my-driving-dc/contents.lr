@@ -1,6 +1,6 @@
 name: How's My Driving DC
 ---
-description: A twitter bot to lookup parking & traffic infractions in DC
+description: A twitter bot to lookup parking & traffic infractions in DC. Featured in the [Washington Post](https://www.washingtonpost.com/local/trafficandcommuting/hows-dc-driving-this-new-tool-instantly-reveals-any-drivers-traffic-violations/2018/09/19/860d8fea-bb8d-11e8-9812-a389be6690af_story.html?noredirect=on&utm_term=.1dd5e11cb4b9) and [Washingtonian](https://www.washingtonian.com/2018/09/10/twitter-bot-finds-worst-dc-drivers-parking/).
 ---
 link1: https://twitter.com/howsmydrivingdc
 ---
@@ -8,7 +8,7 @@ link_label1: View Twitter Profile
 ---
 link_label2: View Source
 ---
-order: 5
+order: 3
 ---
 url: https://twitter.com/howsmydrivingdc
 ---
