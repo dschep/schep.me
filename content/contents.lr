@@ -2,7 +2,7 @@ _model: landing
 ---
 title: Full-Stack Developer
 ---
-about: I am a Full-Stack developer who specializes in Python, JavaScript and Serverless architectures. I am helping change retirement at <a href="https://unitedincome.com/" target="_blank">United Income</a>. In my free time I bike and code up bike related projects.
+about: I am a Full-Stack developer who specializes in Python, JavaScript and Open Source Software at [Serverless](https://serverless.com). In my free time I bike and code up bike related projects.
 ---
 icons:
 
@@ -15,9 +15,9 @@ icons:
         </a>
     </div>
     <div class="col-sm-4">
-        <a href="http://unitedincome.com" target="_blank">
-            <div  class="unitedincome">
-                <img src="/unitedincome.png" alt="United Income">
+        <a href="http://serverless.com" target="_blank">
+            <div  class="serverless">
+                <img src="/serverless.png" alt="Serverless">
             </div>
         </a>
     </div>
@@ -36,9 +36,20 @@ resume:
 	<div class="col-sm-2">
 		<h5 class="resume-section">Work Experience</h5>
 	</div>
-	<div class="col-sm-10"><div class="row">
+	<div class="col-sm-10">
+<div class="row">
 			<div class="col-sm-3 pull-right">
-				<h5>2016 - present</h5>
+				<h5>2018 - present</h5>
+			</div>
+			<div class="col-sm-9">
+				<h4>Senior Software Engineer</h4>
+				<h5>Serverless</h5>
+                                <p>I am helping building open source software to simplify the future of Serverless computing.</p>
+			</div>
+		</div>
+<div class="row">
+			<div class="col-sm-3 pull-right">
+				<h5>2016 - 2018</h5>
 			</div>
 			<div class="col-sm-9">
 				<h4>Senior Software Engineer</h4>

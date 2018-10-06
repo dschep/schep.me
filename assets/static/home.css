@@ -78,8 +78,8 @@
   background: #485563;
 }
 
-.work div.unitedincome {
-  background-image: url('/unitedincome-muted.png');
+.work div.serverless {
+  background-image: url('/serverless-muted.png');
   background-size: 100%;
 }
 .work div.os {
