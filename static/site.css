@@ -1,0 +1,73 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 40px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #4E5D6C;
+  margin-top: 20px;
+}
+.footer p {
+  height: 20px;
+  margin: 10px 0;
+}
+.footer ul {
+  height: 20px;
+  margin: 10px 0;
+  padding: 0;
+}
+.footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+.footer a {
+  color: #EBEBEB;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .network-label {
+    display: none;
+  }
+}
+
+.tags {
+  padding: 0;
+  display: inline;
+}
+.tags li {
+  list-style: none;
+  display: inline-block;
+}
+
+body > .container {
+  padding-bottom: 20px;
+}
+
+.listing {
+  padding: 0;
+}
+.listing li {
+  list-style: none;
+}
+
+.post-header {
+  margin-bottom: 20px;
+}
+
+.portfolio-entry {
+  margin-bottom: 40px;
+}
+.portfolio-link {
+  margin-bottom: 5px;
+}
