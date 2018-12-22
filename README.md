@@ -6,4 +6,5 @@ pip install Lektor
 lektor server
 ```
 
-Automatically deployed to gitlab pages on push.
+Automatically deployed to github pages on push using a
+[github actions workflow](https://github.com/dschep/schep.me/blob/master/.github/main.workflow)
