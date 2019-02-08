@@ -12,7 +12,7 @@ link_label2: Install for Firefox
 ---
 link_label3: Install for Chrome
 ---
-order: 1
+order: 20
 ---
 url: https://github.com/dschep/proven
 ---

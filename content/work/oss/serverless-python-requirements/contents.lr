@@ -2,7 +2,7 @@ name: Serverless Python Requirements Plugin
 ---
 description: A plugin for [the serverless framework](https://serverless.com/) to manage Python requirements when deploying to AWS Lambda. Read more about it in [this blog post](https://serverless.com/blog/serverless-python-packaging/).
 ---
-order: 0
+order: 10
 ---
 url: https://github.com/UnitedIncome/serverless-python-requirements
 ---
