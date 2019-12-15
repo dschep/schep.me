@@ -74,33 +74,10 @@
   }
 }
 
-.well.work {
-  background: #485563;
-}
-
-.work div.serverless {
-  background-image: url('/serverless-muted.png');
-  background-size: 100%;
-}
-.work div.os {
-  background-image: url('/opensource-muted.png');
-  background-size: 100%;
-}
-.work div.trailstash {
-  background-image: url('/trailstash-muted.png');
-  background-size: 100%;
-}
 .work img {
-  background: #4e5d6c;
-  opacity: 0;
   width: 100%;
-  -webkit-transition: opacity .5s ease-in-out;
-  -moz-transition: opacity .5s ease-in-out;
-  -o-transition: opacity .5s ease-in-out;
-  transition: opacity .5s ease-in-out;
-}
-.work .row .col-sm-4 img:hover {
-  opacity: 1;
+  margin-bottom: 20px;
+  padding: 19px;
 }
 
 .resume-section {

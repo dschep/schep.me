@@ -6,28 +6,12 @@ about: I am a Full-Stack developer who specializes in Python, JavaScript and Ope
 ---
 icons:
 
-<div class="row">
-    <div class="col-sm-4">
-        <a href="https://github.com/dschep" target="_blank">
+<div>
+        <a href="https://hmdapp.io" target="_blank">
             <div  class="os">
-                <img src="/opensource.png" alt="Open Source">
+                <img src="/ourstreets.png" alt="Open Source">
             </div>
         </a>
-    </div>
-    <div class="col-sm-4">
-        <a href="http://serverless.com" target="_blank">
-            <div  class="serverless">
-                <img src="/serverless.png" alt="Serverless">
-            </div>
-        </a>
-    </div>
-    <div class="col-sm-4">
-        <a href="http://trailsta.sh" target="_blank">
-            <div  class="trailstash">
-                <img src="/trailstash.png" alt="Trailstash">
-            </div>
-        </a>
-    </div>
 </div>
 ---
 resume:
@@ -39,12 +23,22 @@ resume:
 	<div class="col-sm-10">
 <div class="row">
 			<div class="col-sm-3 pull-right">
-				<h5>2018 - present</h5>
+				<h5>2018 - Present</h5>
+			</div>
+			<div class="col-sm-9">
+				<h4>Co-Founder & CTO</h4>
+				<h5>OurStreets</h5>
+                                <p>Building software to make safer streets.</p>
+			</div>
+		</div>
+<div class="row">
+			<div class="col-sm-3 pull-right">
+				<h5>2018 - 2019</h5>
 			</div>
 			<div class="col-sm-9">
 				<h4>Senior Software Engineer</h4>
 				<h5>Serverless</h5>
-                                <p>I am helping building open source software to simplify the future of Serverless computing.</p>
+                                <p>I built solutions to simplify developing serveless applications.</p>
 			</div>
 		</div>
 <div class="row">
