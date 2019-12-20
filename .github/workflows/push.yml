@@ -1,0 +1,22 @@
+on: push
+name: Deploy to Github Pages
+jobs:
+  lektorBuild:
+    name: lektor build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: lektor build
+      uses: docker://softinstigate/lektor:3.1.2
+      with:
+        args: build
+    - name: only on master
+      uses: actions/bin/filter@b2bea07
+      with:
+        args: branch master
+    - name: deploy to github pages
+      uses: docker://softinstigate/lektor
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        args: deploy ghpages --username ${{ github.token }}
