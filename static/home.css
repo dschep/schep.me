@@ -1,0 +1,103 @@
+@media (min-width: 768px) {
+  nav.navbar {
+    background: none;
+  }
+}
+@media (max-width: 767px) {
+  nav.navbar {
+      margin-bottom: 0;
+  }
+}
+
+/*
+@media (min-width: 768px) {
+  body {
+      background-image: url('/landing-bg.jpg');
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: 2000px;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    background-image: url('/landing-bg-mob.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+  }
+}
+*/
+
+.navbar-brand {
+  display: none;
+}
+
+
+/* hero block */
+.hero {
+  text-align: center;
+  padding: 100px 0;
+}
+.hero h1, .hero h2 { margin: 0; }
+.hero h1 { font-size: 29px; }
+.hero h2 { font-size: 22px; }
+.hero .title {
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+.avatar {
+  height: 200px;
+  width: 200px;
+  border: 5px solid #DF691A;
+  border-radius: 100px;
+}
+@media (max-width: 767px) {
+  .hero {
+    padding: 50px 0;
+  }
+
+  .avatar {
+    height: 100px;
+    width: 100px;
+    border: 5px solid #DF691A;
+    border-radius: 50px;
+  }
+}
+/* end hero block */
+
+@media (max-width: 767px) {
+  .about {
+    background: #2B3E50;
+    margin: 0 -15px;
+    padding: .1px 15px 0;
+  }
+}
+
+.work img {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 19px;
+}
+
+.resume-section {
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  #mountains {
+    height: 537px;
+  }
+}
+@media (max-width: 767px) {
+  #mountains {
+    height: 355px;
+  }
+}
+#mountains {
+  z-index: -10000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
