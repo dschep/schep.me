@@ -1,4 +1,7 @@
-on: push
+on:
+  push:
+    branches:
+      - master
 name: Deploy to Github Pages
 jobs:
   lektorBuild:
@@ -10,10 +13,6 @@ jobs:
       uses: docker://softinstigate/lektor:3.1.2
       with:
         args: build
-    - name: only on master
-      uses: actions/bin/filter@b2bea07
-      with:
-        args: branch master
     - name: deploy to github pages
       uses: docker://softinstigate/lektor
       env:
