@@ -1,0 +1,15 @@
+name: OurStreets App
+---
+description: OurStreets' public-facing application allows citizens to report systemic street safety issues that aren't in the purview of city 311 systems. I lead the development of this app. It is built using React Native and Expo. The backend is powered by PostgreSQL on AWS RDS and Python on AWS Lambda.
+---
+link1: https://apps.apple.com/us/app/ourstreets/id1494198355?ls=1
+---
+link2: https://play.google.com/store/apps/details?id=com.ourstreets.reporter
+---
+link_label1: Apple App Store
+---
+link_label2: Google Play Store
+---
+order: 1
+---
+url: https://ourstreets.com

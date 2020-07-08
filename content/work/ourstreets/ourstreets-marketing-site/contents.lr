@@ -1,0 +1,11 @@
+name: OurStreets Marketing Site
+---
+description: I implemented the OurStreets marketing site using CSS flex-box, 11ty, and netlify-cms from designs.
+---
+order: 10
+---
+url: https://ourstreets.com
+---
+link1: https://ourstreets.com
+---
+link_label1: View Site

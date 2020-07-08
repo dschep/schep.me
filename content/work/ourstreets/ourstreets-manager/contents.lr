@@ -1,0 +1,11 @@
+name: OurStreets Manager
+---
+description: OurStreets Manager is used by advocacy, municipal, and micro-mobility partners to gain insights and respond to reports from users of the app. I lead the development of OurStreets' partner-facing app. It is built using React and material-ui. The backend is powered by PostgreSQL on AWS RDS and Python on AWS Lambda.
+---
+order: 5
+---
+url: https://ourstreets.com
+---
+link1: https://ourstreets.com
+---
+link_label1: ourstreets.com
