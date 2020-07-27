@@ -2,11 +2,14 @@ _model: landing
 ---
 title: Full-Stack Developer
 ---
-about: I am a Full-Stack developer who specializes in Python, JavaScript. I am the co-founder of [OurStreets](https://ourstreets.com), creating software to make our
+about:
+
+I am a Full-Stack developer who specializes in Python, JavaScript. I am the co-founder of [OurStreets](https://ourstreets.com), creating software to make our
 streets safer for everyone.
 ---
 icons:
 
+<!--
 <div>
         <a href="https://ourstreets.com" target="_blank">
             <div  class="os">
@@ -14,6 +17,7 @@ icons:
             </div>
         </a>
 </div>
+-->
 ---
 resume:
 

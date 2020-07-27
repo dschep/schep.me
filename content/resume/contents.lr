@@ -10,9 +10,9 @@ dschep@gmail.com
 (803) 727 - 9909
 
 ## Summary of skills
-* Expert Python  & Javascript developer, using Serverless & AWS.
+* Expert Python  & Javascript developer, using Serverless, AWS, React, & React Native.
 * Experienced with many HTTP frameworks including Django, Tornado, Flask, and aiohttp.
-* Proficient in relational and non-relational Databases, HTML5, CSS3, and Bash
+* Experienced in relational and non-relational Databases, HTML5, CSS3, and Bash
 * Working knowledge of C, C++, Fortran, Java, and Perl
 * Expert user of Linux, Windows, and Mac OS with Ops/Sysadmin experience on
 Linux
@@ -23,12 +23,27 @@ University of South Carolina - Bachelor of Science
 
 ## Work Experience
 
-### Serverless, Inc. - Senior Software Engineer
-2018 - present  
-I am building the future of serverless computing.
+### OurStreets - Co-founder and Head of Engineering
+2019 - 2020
 
- * New features & maintenance of serverless framework v1
- * Building serverless framework v2
+I built a platform for crowdsourcing street safety issues in cities.
+
+ * Designed and implmented a cross-platform native mobile application and a scalable backend
+   service to power it.
+ * Built back-office tools for Advocacy organization and other interested parties to view the
+   crowdsourced data reported by members of the public.
+ * Managed a junior frontend engineer.
+ * Implemented a hard pivot at the beginning of the COVID-19 pandemic to crowdsource the
+   availability of essential supplies such as toilet paper.
+
+### Serverless, Inc. - Senior Software Engineer
+2018 - 2019
+
+I helped build the future of serverless computing.
+
+ * Designed & implemented new features serverless framework v1
+ * Maintained serverless framework v1
+ * Designed & implemented early features of the serverless components framework
 
 ### United Income, Inc. - Senior Software Engineer
 2016 - 2018
