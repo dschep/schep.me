@@ -54,7 +54,7 @@ I was one of United Income's first engineers and help build and bring our produc
  * Implemented frontend features using React & Redux.
  * Designed and built a trading engine in Python & Serverless to compute trades needed to rebalance
    a user's portfolio and execute it in the market.
- * Created and Maintain the
+ * Created and maintained the
    [serverless-python-requirements plugin](https://github.com/unitedincome/serverless-python-requirements)
 
 ### Washington Post - Consultant
