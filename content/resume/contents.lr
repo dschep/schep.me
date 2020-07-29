@@ -1,6 +1,6 @@
 _model: page
 ---
-title: Resume
+title: Daniel Schep
 ---
 _hidden: no
 ---
@@ -47,7 +47,8 @@ I helped build the future of serverless computing.
 
 ### United Income, Inc. - Senior Software Engineer
 2016 - 2018
-I was on of United Income's first engineers and help build and bring our product to market.
+
+I was one of United Income's first engineers and help build and bring our product to market.
 
  * Built backend HTTP APIs using Node.js and Serverless Framework on AWS Lambda.
  * Implemented frontend features using React & Redux.
