@@ -1,0 +1,11 @@
+name: POI Scout
+---
+description: POI Scout is a simple PWA designed for easily scouting out points of interest. I built this for my own obsession with foraging berries so that I could add fruiting trees to a map with minimal friction while walking and biking around town.
+---
+link1: https://poi-scout.com
+---
+link_label1: Use the App
+---
+order: 10
+---
+url: https://poi-scout.com
