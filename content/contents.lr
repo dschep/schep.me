@@ -4,8 +4,8 @@ title: Full-Stack Developer
 ---
 about:
 
-I am a Full-Stack developer who specializes in Python, JavaScript. I am the co-founder of [OurStreets](https://ourstreets.com), creating software to make our
-streets safer for everyone.
+I am a Full-Stack developer who specializes in Python, Go, JavaScript, and GeoSpatial data. I am a Senior Software Engineer at (onXmaps)[https://www.onxmaps.com/]
+building automated solutions for managing GeoSpatial data to maps to awake the adventurer in everyone.
 ---
 icons:
 
@@ -33,17 +33,17 @@ resume:
 			<div class="col-sm-9">
 				<h4>Senior Software Development Engineer</h4>
 				<h5>onXMaps</h5>
-                                <p>Building maps to enable adventures where the pavement ends.</p>
+                                <p>Building maps to awake the adventurer in everyone.</p>
 			</div>
 		</div>
 <div class="row">
 			<div class="col-sm-3 pull-right">
-				<h5>2018 - Present</h5>
+				<h5>2018 - 2020</h5>
 			</div>
 			<div class="col-sm-9">
 				<h4>Co-Founder & Head of Engineering</h4>
 				<h5>OurStreets</h5>
-                                <p>Building software to make safer streets.</p>
+                                <p>I built the full-stack for crowd-sourced street saftey reporting software.</p>
 			</div>
 		</div>
 <div class="row">
